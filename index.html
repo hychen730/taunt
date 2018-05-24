@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>嘲讽你</title>
+<style>
+body,ul,ol,h1,h2,h3,h4,h5,h6,p,input,select,textarea,dl,dd,figure,figcaption,pre{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+input,select,textarea{background-color: transparent; border: none; outline: none;}
+textarea{resize: none;}
+img{border: none; vertical-align: middle;}
+a{text-decoration: none;}
+h1,h2,h3,h4,h5,h6,th{font-weight:normal;}
+em,strong{ font-style: normal;font-weight: normal;} 
+.clearfix:after,.clearfix:before{content: "";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}	
+.fl{ float: left;}
+.fr{ float: right;}
+body{background-image: url(2.jpg);background-size: 421px;}	
+.box{width: 400px;height: 300px;margin: 40px auto;background: #fff;border: 1px solid #ccc;padding: 20px 10px;box-sizing: border-box;text-align: center;}
+.box>.bd{width: 180px;font-size: 14px;padding: 8px;border: 1px solid #000;color: #333;margin-top: 15px;border-radius: 6px;}
+.box>p{padding: 12px;font-size: 0px;position: relative;}
+.box>p>label{font-size: 12px;color: #777;margin-right:10px;margin-left:5px;}
+.box>p>a{font-size: 12px;color: #555;margin-left:10px;}
+.box>button{width: 100px;height:30px;line-height:30px;text-align: center;}
+</style>
+</head>
+
+<body>
+	<div class="box">
+		<h2>登录</h2>
+		<input type="text" class="bd" placeholder="请输入账户名"><br>
+		<input type="password" class="bd" placeholder="请输入密码"><br>
+		<p class="clearfix">
+			<input type="radio" id="rp"><label for="rp">记住密码</label>
+			<a href="#">忘记密码？</a>
+		</p>
+		<button>登录</button>
+	</div>
+</body>
+</html>
